@@ -1,0 +1,26 @@
+body {
+  font-family: sans-serif;
+  background-color: #f2ffe9;
+}
+h1 {
+  color: #db6b97;
+  font-style: italic;
+  font-family: "Times New Roman", Times, serif;
+}
+h2 {
+  color: #557c55;
+  font-style: italic;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+#cambiador {
+  background-color: #a1b57d;
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #000000;
+  -moz-border-radius: 7px;
+  -webkit-border-radius: 7px;
+}
+
+.oculto {
+  display: none;
+}
