@@ -9,11 +9,13 @@ elem2.setAttribute("class", "favorito");
 let boton = document.querySelector("#cambiador");
 
 //Evento boton cambiador
-document
-  .querySelector("#cambiador")
-  .addEventListener("click", intercambiarClase);
+boton.addEventListener("click", intercambiarClase);
+
 function intercambiarClase() {
   document.querySelector("div").classList.toggle("oculto");
-  if (boton.value === "Mostrar Div") boton.setAttribute("name", "Ocultar Div");
-  else boton.setAttribute = ("name", "Mostrar Div");
+  if (boton.innerHTML === "Mostrar Div") {
+    boton.innerHTML = "Ocultar Div";
+  } else {
+    boton.innerHTML = "Mostrar Div";
+  }
 }
